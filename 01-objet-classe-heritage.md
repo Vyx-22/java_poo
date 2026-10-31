@@ -89,3 +89,4 @@ Règles à retenir :
 - une méthode a toujours un corps `{ }`, même vide
 - relation mère-fille, pas entre sœurs : `Moto` ne peut pas appeler `activeAirbag()`, car `Voiture` et `Moto` héritent toutes les deux de `Vehicule` sans hériter l'une de l'autre
 - en Java, une classe n'a qu'une seule mère
+
