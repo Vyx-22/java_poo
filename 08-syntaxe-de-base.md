@@ -104,3 +104,23 @@ for (String mot : mots) {
 - boucle infinie : oublier de modifier la variable de la condition
 - décalage d'un tour : `i <= 5` fait un tour de plus que `i < 5`
 - `while` peut faire zéro tour, `do while` en fait toujours au moins un
+
+## Saisie clavier (Scanner)
+Définition : `Scanner` est une classe qui permet de lire ce que l'utilisateur tape au clavier.
+
+```java
+import java.util.Scanner;
+
+Scanner clavier = new Scanner(System.in);
+String prenom = clavier.nextLine();               // une ligne de texte
+int choix = Integer.parseInt(clavier.nextLine()); // un entier
+clavier.close();
+```
+
+- `import java.util.Scanner;` obligatoire, en haut du fichier
+- `nextLine()` : une ligne de texte
+- `nextInt()`, `nextDouble()` : un nombre
+- `.trim()` : supprime les espaces au début et à la fin
+- `close()` : fermer le Scanner à la fin
+
+Piège : après `nextInt()`, la touche Entrée reste en attente, et le `nextLine()` suivant lit une ligne vide. Solution : tout lire avec `nextLine()`, puis convertir avec `Integer.parseInt()`.
