@@ -1,6 +1,10 @@
 # 04 - Interface
 
 ## Interface
+
+Définition : une interface est un ensemble de méthodes abstraites qui définit un contrat. Toute classe qui l'implémente avec `implements` doit définir ces méthodes.
+
+
 Une interface est un contrat qui liste des compétences. Si une classe signe le contrat, elle doit obligatoirement savoir faire ces compétences.
 
 L'interface dit quoi faire, jamais comment.

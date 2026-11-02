@@ -1,7 +1,11 @@
 # 01 - Objet, classe, héritage
 
 ## Classe
-Plan de construction. Elle définit :
+Plan de construction. 
+
+Définition : une classe est un modèle qui définit les attributs (données) et les méthodes (comportements) communs à un ensemble d'objets.
+
+Elle définit :
 - des attributs : ce que l'objet possède
 - des méthodes : ce que l'objet sait faire
 
