@@ -24,3 +24,7 @@ Chaque note suit le même modèle : la définition, une explication simple, des 
 11. [Généricité](11-genericite.md)
 12. [Exceptions](12-exception.md)
 13. [Fichiers](13-fichier.md)
+
+## Mise en pratique
+
+Pour appliquer ces notions, j'ai réalisé un [jeu de devinette de mots](https://github.com/Vyx-22/jeu_devinette) pour deux joueurs, en version console et avec interface graphique. Il utilise l'encapsulation, les collections, la lecture de fichiers, les exceptions et l'héritage.
